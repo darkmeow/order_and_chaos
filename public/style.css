@@ -131,7 +131,14 @@ ul {
   cursor: pointer;
   border: none;
 }
-
+.orderSide p {
+  font-size: 5em;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+  text-align: center;
+}
 .chaosSide {
   height: 90%;
   width: 50%;
@@ -140,6 +147,18 @@ ul {
   right: 0;
   cursor: pointer;
   border: none;
+}
+.chaosSide p {
+  font-size: 5em;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.orderSide p:hover, .chaosSide p:hover {
+  text-decoration: underline;
 }
 
 table.board {

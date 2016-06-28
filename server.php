@@ -293,7 +293,7 @@ function showBoard($board) {
 }
 
 // iniciar webserver interno
-$web = new WebServer('http://0.0.0.0:8000');
+$web = new WebServer('http://0.0.0.0:7000');
 $web->addRoot('localhost', __DIR__ . '/public');
 
 // ejecutar todos los workers (socket y webserver)
