@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order &amp; Chaos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="boardArea">
+        <h3 class="title"></h3>
+        <div class="orderSide"></div>
+        <div class="chaosSide"></div>
+        <img id="redChip" src="red.png" draggable="true" />
+        <img id="whiteChip" src="white.png" draggable="true" />
+        <table class="board">
+          <tr>
+            <td id="c1"></td><td id="c2"></td><td id="c3"></td><td id="c4"></td><td id="c5"></td><td id="c6"></td>
+          </tr>
+          <tr>
+            <td id="c7"></td><td id="c8"></td><td id="c9"></td><td id="c10"></td><td id="c11"></td><td id="c12"></td>
+            </tr>
+          <tr>
+            <td id="c13"></td><td id="c14"></td><td id="c15"></td><td id="c16"></td><td id="c17"></td><td id="c18"></td>
+          </tr>
+          <tr>
+            <td id="c19"></td><td id="c20"></td><td id="c21"></td><td id="c22"></td><td id="c23"></td><td id="c24"></td>
+          </tr>
+          <tr>
+            <td id="c25"></td><td id="c26"></td><td id="c27"></td><td id="c28"></td><td id="c29"></td><td id="c30"></td>
+          </tr>
+          <tr>
+            <td id="c31"></td><td id="c32"></td><td id="c33"></td><td id="c34"></td><td id="c35"></td><td id="c36"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Escribe aquí..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">¿Cuál es tu nombre?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="/jquery.min.js"></script>
+  <script src="/socket.io-client/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
