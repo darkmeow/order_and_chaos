@@ -1,4 +1,9 @@
+
 # Order & Chaos #
+
+### Redes de Computadores ###
+
+Proyecto Final de Redes de Computadores ELO322 2016-1. Uso de WebSocket + HTML5 para la creación de "Order & Chaos"
 
 ### Ejecución ###
 * `Inicializar servidor`: 
@@ -9,9 +14,6 @@ php server.php start
 ```
 ip_servidor:7000
 ```
-
-### Ejecución ###
-
 
 ### Protocolo ###
 * `add user`: agrega usuario a la lista de jugadores
