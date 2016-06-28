@@ -36,3 +36,6 @@ ip_servidor:7000
   `win_order`: gana order.
   
   `win_chaos`: gana chaos.
+  
+### BUG ###
+* Se debe reiniciar el servidor al terminar el juego (por arreglar)
