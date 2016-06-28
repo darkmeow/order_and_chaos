@@ -12,7 +12,7 @@ php server.php start
 ```
 * `Cliente`: a través de un navegador conectarse a la ip del servidor en el puerto 7000
 ```
-ip_servidor:7000
+ip_servidor:8000
 ```
 
 ### Protocolo ###
